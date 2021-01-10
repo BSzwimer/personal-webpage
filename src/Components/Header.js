@@ -29,7 +29,24 @@ const Header = () => {
   };
 
   return (
-    <div className="ui inverted secondary pointing menu">{headerRender()}</div>
+    <div className="ui inverted secondary pointing menu">
+      {headerRender()}
+      <div
+        className="right menu"
+        style={{ paddingTop: "10px", paddingRight: "10px" }}
+      >
+        <a href="https://github.com/BSzwimer" target="_blank" rel="noreferrer">
+          <i className="inverted github icon large"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/benjamin-szwimer-39448a173/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i className="inverted linkedin icon large"></i>
+        </a>
+      </div>
+    </div>
   );
 };
 
