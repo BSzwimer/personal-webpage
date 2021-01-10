@@ -1,0 +1,32 @@
+/* .image {
+  height: 200px;
+  width: 300px;
+  background-color: #3865fe;
+}
+
+.container {
+  background-color: #000000;
+}
+
+.particles {
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+} */
+
+.App {
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+.particles {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.level-10 {
+  position: relative;
+}
