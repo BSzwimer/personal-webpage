@@ -1,9 +1,14 @@
 import React from "react";
+import myTranscript from "../images/BenjaminSzwimerTranscript.pdf";
 
 const Transcript = () => {
   return (
-    <div>
-      <h3 style={{ color: "#ffffff" }}>transcript!</h3>
+    <div className="resp-container">
+      <iframe
+        title="myTranscript"
+        className="resp-iframe"
+        src={myTranscript}
+      ></iframe>
     </div>
   );
 };
