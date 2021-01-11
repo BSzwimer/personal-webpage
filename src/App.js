@@ -4,9 +4,7 @@ import Particles from "react-particles-js";
 import particlesConfig from "./config/particlesConfig";
 import Logo from "./Components/Logo";
 import AboutMe from "./Components/AboutMe";
-
 import Header from "./Components/Header";
-import myTranscript from "./images/BenjaminSzwimerTranscript.pdf";
 import myResume from "./images/BenjaminSzwimerResume.pdf";
 import "./App.css";
 import PDFDisplay from "./Components/PDFDisplay";
