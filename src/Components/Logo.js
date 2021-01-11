@@ -14,18 +14,11 @@ const Logo = () => {
         Benjamin Szwimer
       </h1>
 
-      <div className="pa3 level-10">
+      <div className="pa3">
         <img
-          style={{
-            paddingTop: "5px",
-            width: "400px",
-            height: "320px",
-            display: "block",
-            marginLeft: "auto",
-            marginRight: "auto",
-          }}
+          className="ui middle aligned large image "
           src={LogoPic}
-          alt="logo"
+          alt="frontpage of Benjamin Szwimer"
         />
       </div>
       <h3
