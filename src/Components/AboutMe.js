@@ -25,7 +25,7 @@ const AboutMe = () => {
           in December, 2021. I am interested in everything software and I try to
           expose myself to as many different technologies as possible. I have
           participated in hackathons, partaken in software engineering
-          internships and worked on different side projects!
+          internships and worked on different side projects.
         </h3>
         <h3
           style={{
