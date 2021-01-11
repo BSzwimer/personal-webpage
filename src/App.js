@@ -21,13 +21,6 @@ function App() {
           <Route path="/" exact component={Logo} />
           <Route path="/aboutme" exact component={AboutMe} />
           <Route
-            path="/transcript"
-            exact
-            component={() => (
-              <PDFDisplay title="myTranscript" doc={myTranscript} />
-            )}
-          />
-          <Route
             path="/resume"
             exact
             component={() => <PDFDisplay title="myResume" doc={myResume} />}

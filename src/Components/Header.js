@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 const headerItems = [
   { title: "Home", path: "/" },
   { title: "Resume", path: "/resume" },
-  { title: "Transcript", path: "/transcript" },
   { title: "About me", path: "/aboutme" },
 ];
 
